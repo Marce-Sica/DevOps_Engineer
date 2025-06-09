@@ -1,0 +1,4 @@
+Database instance 'tutorial-db' created successfully in VPC 'tutorial-vpc'.
+Public endpoint: mariadbinstancia.abc123xyz.us-west-2.rds.amazonaws.com
+Master username: admin
+Status: Available

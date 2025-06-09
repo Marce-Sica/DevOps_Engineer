@@ -1,0 +1,14 @@
+Welcome to the MariaDB monitor. Commands end with ; or \g.
+Your MariaDB connection id is 60
+Server version: 10.1.34-MariaDB MariaDB Server
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| innodb             |
+| mysql              |
+| performance_schema |
++--------------------+
+4 rows in set (0.05 sec)
