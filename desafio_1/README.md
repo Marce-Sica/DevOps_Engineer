@@ -57,10 +57,3 @@ Crear dos jobs en Jenkins para:
 
 ---
 
-## 📦 Requisitos para entrega
-
-- Subido a GitHub dentro del repo `DevOps_Engineer`
-- Archivos correctamente organizados
-- README explicativo + evidencias + diagrama
-
-
