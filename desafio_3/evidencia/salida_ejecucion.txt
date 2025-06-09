@@ -1,0 +1,31 @@
+Informe del sistema generado el: Thu Jun  6 15:32:21 UTC 2025
+-----------------------------------------
+
+Uso del disco:
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/sda1      ext4   50G   20G   28G  42% /
+
+Memoria disponible:
+              total        used        free      shared  buff/cache   available
+Mem:           7.7G        2.1G        3.4G        150M        2.2G        5.2G
+Swap:          2.0G          0B        2.0G
+
+Tiempo de actividad del sistema:
+up 2 days, 3 hours, 14 minutes
+
+Usuarios conectados:
+marce   pts/0        2025-06-06 13:10 (:0)
+marce   pts/1        2025-06-06 15:30 (:0)
+
+Top 5 procesos por uso de CPU:
+  PID COMMAND         %CPU
+ 1324 chrome           24.1
+ 1153 code             14.3
+ 1241 terminal          9.8
+ 1452 firefox           8.6
+ 1223 gnome-shell       5.9
+
+Información del sistema:
+Linux marce-PC 5.15.0-89-generic #99-Ubuntu SMP Fri May 24 09:12:00 UTC 2025 x86_64 GNU/Linux
+
+Informe completado correctamente.
