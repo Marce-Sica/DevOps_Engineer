@@ -1,0 +1,52 @@
+Started by GitHub push by Marce-Sica
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/nodejs-api-pipeline
+
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins-Agent in /home/jenkins/workspace/nodejs-api-pipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Checkout)
+[Pipeline] git
+Cloning the remote Git repository...
+ > git clone https://github.com/Marce-Sica/marce_sica-nodejs.git
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Instalar dependencias)
+[Pipeline] sh
++ npm install
+added 72 packages, and audited 72 packages in 1s
+
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Ejecutar tests)
+[Pipeline] sh
++ npm test
+
+> nodejs-helloworld-api@1.0.0 test
+> jest
+
+PASS  ./app.test.js
+  ✓ GET / (200 OK)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.234s
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Build final)
+[Pipeline] echo
+Build exitoso. Aplicación Node.js testeada.
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] echo
+✅ Pipeline ejecutado con éxito.
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

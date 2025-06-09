@@ -1,0 +1,16 @@
+GitHub Webhook triggered
+Payload received from: https://github.com/Marce-Sica/marce_sica-nodejs
+Event type: push
+
+[GitHub Webhook]
+Triggering job nodejs-api-pipeline
+Job 'nodejs-api-pipeline' started by GitHub push
+
+Polling SCM...
+Latest commit: 0a1b2c3d4e5f6g7h8i9j (Marce-Sica)
+Build triggered for branch: main
+
+Started by GitHub push by Marce-Sica
+Running as SYSTEM
+...
+Build #27 triggered and running

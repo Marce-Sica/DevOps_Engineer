@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    tools {
+        nodejs "NodeJS 18"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/Marce-Sica/marce_sica-nodejs.git'
+            }
+        }
+
+        stage('Instalar dependencias') {
+            steps {
+                sh 'npm install'
+            }
+        }
+
+        stage('Ejecutar tests') {
+            steps {
+                sh 'npm test'
+            }
+        }
+
+        stage('Build final') {
+            steps {
+                echo 'Build exitoso. Aplicación Node.js testeada.'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ Pipeline ejecutado con éxito.'
+        }
+        failure {
+            echo '❌ Falló alguna etapa del pipeline.'
+        }
+    }
+}
