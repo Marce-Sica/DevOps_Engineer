@@ -15,6 +15,11 @@ Crear dos jobs en Jenkins para:
 
 ## 📂 Estructura del proyecto
 
+desafio_1_usuarios_linux_jenkins/
+└── evidencia/
+    ├── evidencia_creacion.txt
+    └── evidencia_eliminacion.txt
+
 
 ---
 
@@ -44,10 +49,12 @@ Crear dos jobs en Jenkins para:
 
 ---
 
-## 🧪 Evidencia de funcionamiento
+## 📄 Evidencia
 
-- Captura del log del job con la password temporal generada
-- Captura del log del job de eliminación confirmando borrado
+Se realizaron pruebas en entorno de desarrollo, cuyos resultados se reflejan en los siguientes archivos:
+
+- `evidencia/evidencia_creacion.txt`: salida del Job de creación
+- `evidencia/evidencia_eliminacion.txt`: salida del Job de eliminación
 
 ---
 

@@ -33,10 +33,10 @@ pipeline {
 
     post {
         success {
-            echo '✅ Pipeline ejecutado con éxito.'
+            echo 'Pipeline ejecutado con éxito.'
         }
         failure {
-            echo '❌ Falló alguna etapa del pipeline.'
+            echo 'Falló alguna etapa del pipeline.'
         }
     }
 }

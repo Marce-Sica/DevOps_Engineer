@@ -15,6 +15,14 @@ Este desafío consiste en configurar un pipeline de integración continua (CI) u
 
 ## 🛠️ Estructura del proyecto
 
+desafio_2/
+├── Jenkinsfile
+├── README.md
+├── evidencia/
+│ ├── evidencia_build.txt
+│ └── evidencia_webhook.txt
+├── diagrama_desafio_2.png
+└── guia_desafio_2.docx
 
 ---
 
