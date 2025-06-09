@@ -1,0 +1,2 @@
+✅ build-and-push job completed successfully
+📦 Image pushed to Docker Hub: docker.io/usuario/mi-app:latest
