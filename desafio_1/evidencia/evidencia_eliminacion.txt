@@ -1,0 +1,19 @@
+Started by user Marcelo Sica
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/eliminar_usuario
+
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins-Agent in /home/jenkins/workspace/eliminar_usuario
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Eliminar usuario Linux)
+[Pipeline] sh
++ bash eliminar_usuario.sh juan_perez
+Usuario 'juan_perez' y su grupo 'tecnologia' eliminados
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

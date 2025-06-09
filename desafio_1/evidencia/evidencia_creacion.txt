@@ -1,0 +1,20 @@
+Started by user Marcelo Sica
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/crear_usuario
+
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins-Agent in /home/jenkins/workspace/crear_usuario
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Crear usuario Linux)
+[Pipeline] sh
++ bash crear_usuario.sh juan_perez "Juan Perez" tecnologia
+Usuario 'juan_perez' creado correctamente
+Password temporal: V3k#n9w8bZf1
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
