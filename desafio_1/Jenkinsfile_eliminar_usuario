@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'LOGIN', description: 'Login del usuario a eliminar')
+    }
+
+    stages {
+        stage('Eliminar usuario Linux') {
+            steps {
+                script {
+                    sh "bash eliminar_usuario.sh ${params.LOGIN}"
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "Usuario eliminado correctamente"
+        }
+        failure {
+            echo "Error al eliminar el usuario"
+        }
+    }
+}

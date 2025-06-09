@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'LOGIN', description: 'Login del usuario (nombre_apellido)')
+        string(name: 'FULLNAME', description: 'Nombre completo del usuario')
+        choice(name: 'DEPARTMENT', choices: ['contabilidad', 'finanzas', 'tecnologia'], description: 'Departamento del usuario')
+    }
+
+    stages {
+        stage('Crear usuario Linux') {
+            steps {
+                script {
+                    sh "bash crear_usuario.sh ${params.LOGIN} \"${params.FULLNAME}\" ${params.DEPARTMENT}"
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "Usuario creado correctamente"
+        }
+        failure {
+            echo "Error al crear el usuario"
+        }
+    }
+}
