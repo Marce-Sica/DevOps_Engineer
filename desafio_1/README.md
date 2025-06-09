@@ -64,3 +64,5 @@ Se realizaron pruebas en entorno de desarrollo, cuyos resultados se reflejan en 
 
 ---
 
+📄 **Descargar guía formal del desafío:**
+[documentacion_desafio_1.docx](./documentacion_desafio_1.docx)
