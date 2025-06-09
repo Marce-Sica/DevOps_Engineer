@@ -1,0 +1,1 @@
+upload: ./archivo.txt to s3://devops-bootcamp-s3-marce-2025/archivo.txt

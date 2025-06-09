@@ -1,0 +1,12 @@
+{
+  "Credentials": {
+    "AccessKeyId": "ASIA...EXAMPLE",
+    "SecretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCY...EXAMPLE",
+    "SessionToken": "IQoJb3JpZ2luX2VjENH...EXAMPLE==",
+    "Expiration": "2025-06-06T21:30:00Z"
+  },
+  "AssumedRoleUser": {
+    "AssumedRoleId": "AROA...EXAMPLE:S3AccessSession",
+    "Arn": "arn:aws:sts::123456789012:assumed-role/S3WriteRole/S3AccessSession"
+  }
+}
