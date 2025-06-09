@@ -1,0 +1,2 @@
+nestjs-app running on http://localhost:3000
+mongo container started on port 27017

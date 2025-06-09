@@ -1,0 +1,19 @@
+{
+  "name": "nestjs-app",
+  "version": "1.0.0",
+  "description": "Simulated NestJS App",
+  "main": "dist/main.js",
+  "scripts": {
+    "start:prod": "node dist/main.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  }
+}

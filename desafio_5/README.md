@@ -41,6 +41,5 @@ Se describe paso a paso la creación de todos los recursos implicados en una inf
 
 ---
 
-
 📄 **Descargar guía formal del desafío:**
 [documentacion_desafio_5.docx](./documentacion_desafio_5.docx)
