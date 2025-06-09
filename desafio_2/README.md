@@ -42,3 +42,8 @@ Se incluyen pruebas:
 
 - [Jenkins GitHub Plugin](https://plugins.jenkins.io/github/)
 - [Node.js + Jest](https://jestjs.io/)
+
+---
+
+📄 **Descargar guía formal del desafío:**
+[documentacion_desafio_2.docx](./documentacion_desafio_2.docx)
