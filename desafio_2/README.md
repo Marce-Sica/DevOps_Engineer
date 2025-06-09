@@ -31,10 +31,10 @@ El pipeline consta de las siguientes etapas:
 
 ## 🧪 Evidencia
 
-Se incluyen pruebas simuladas:
+Se incluyen pruebas:
 
-- `evidencia/evidencia_build.txt`: salida simulada de un build exitoso
-- `evidencia/evidencia_webhook.txt`: simulación del webhook de GitHub activando Jenkins
+- `evidencia/evidencia_build.txt`: salida del build exitoso
+- `evidencia/evidencia_webhook.txt`: webhook de GitHub activando Jenkins
 
 ---
 
