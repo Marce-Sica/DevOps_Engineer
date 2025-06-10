@@ -1,0 +1,4 @@
+deployment.apps/nestjs-app created
+deployment.apps/mongodb created
+service/nestjs-service created
+service/mongodb created
