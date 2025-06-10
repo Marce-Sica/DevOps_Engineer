@@ -1,0 +1,2 @@
+Terraform Cloud plan executed successfully.
+Resources: 1 added, 0 changed, 0 destroyed.
