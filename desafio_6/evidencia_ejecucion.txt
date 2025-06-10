@@ -1,0 +1,13 @@
+PLAY [all] ********************************************************************
+
+TASK [Gathering Facts] ********************************************************
+ok: [localhost]
+
+TASK [web : Instalar Apache] **************************************************
+changed: [localhost]
+
+TASK [web : Iniciar servicio Apache] ******************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=2    unreachable=0    failed=0
