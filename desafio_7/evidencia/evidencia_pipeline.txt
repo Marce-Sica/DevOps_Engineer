@@ -1,0 +1,17 @@
+[JENKINS] Starting CI/CD pipeline for branch: dev
+[INFO] Cloning repository from: https://github.com/Marce-Sica/desafio_7.git
+[INFO] Checked out branch 'dev'
+[INFO] Running ansible-playbook for inventory: ansible/inventory/dev/hosts
+
+PLAY [Playbook principal] *********************************************************
+
+TASK [Gathering Facts] ************************************************************
+ok: [192.168.1.10]
+
+TASK [apache : Instalar Apache] ***************************************************
+changed: [192.168.1.10]
+
+PLAY RECAP ************************************************************************
+192.168.1.10              : ok=2    changed=1    unreachable=0    failed=0
+
+[INFO] Pipeline execution completed successfully.

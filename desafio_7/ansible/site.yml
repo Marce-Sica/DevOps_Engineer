@@ -1,0 +1,5 @@
+- name: Playbook principal
+  hosts: web
+  become: yes
+  roles:
+    - apache

@@ -1,0 +1,24 @@
+pipeline {
+  agent any
+  environment {
+    ANSIBLE_HOST_KEY_CHECKING = 'False'
+  }
+  parameters {
+    string(name: 'BRANCH', defaultValue: 'dev', description: 'Git branch to use')
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        git branch: "${params.BRANCH}", url: 'https://github.com/Marce-Sica/desafio_7.git'
+      }
+    }
+    stage('Run Ansible Playbook') {
+      steps {
+        script {
+          def inventoryPath = "ansible/inventory/${params.BRANCH}/hosts"
+          sh "ansible-playbook -i ${inventoryPath} ansible/playbooks/site.yml"
+        }
+      }
+    }
+  }
+}
