@@ -1,0 +1,12 @@
+NAME                                  SYNC STATUS   HEALTH STATUS
+educacionit-app                       Synced        Healthy
+educacionit-mongodb                   Synced        Healthy
+
+GROUP            KIND        NAMESPACE            NAME                    STATUS
+apps             Deployment  marce-helm_chart     educacionit-app         Healthy
+apps             Deployment  marce-helm_chart     educacionit-mongodb     Healthy
+v1               Service     marce-helm_chart     educacionit-app         Healthy
+v1               Service     marce-helm_chart     educacionit-mongodb     Healthy
+
+Message: All resources are synced and healthy.
+Last sync: Successful - Automated sync completed at 2025-06-10 14:32:01
