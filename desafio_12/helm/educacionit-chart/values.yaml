@@ -1,0 +1,9 @@
+app:
+  name: nestjs-app
+  image: nestjs-app:latest
+  port: 3000
+
+mongodb:
+  name: mongodb
+  image: mongo:6.0
+  port: 27017

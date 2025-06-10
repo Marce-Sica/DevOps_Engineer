@@ -1,0 +1,5 @@
+NAME: educacionit-app
+LAST DEPLOYED: ...
+NAMESPACE: default
+STATUS: deployed
+RESOURCES: 2 deployments, 2 services
