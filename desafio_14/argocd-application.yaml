@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Marce-Sica/DevOps_Engineer
+    repoURL: https://github.com/Marce-Sica/DevOps_Engineer/desafio_14
     targetRevision: HEAD
     path: desafio_12/helm/educacionit-chart
     helm:
